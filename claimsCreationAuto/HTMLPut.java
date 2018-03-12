@@ -63,7 +63,7 @@ public class HTMLPut {
 	        
 	        
 	        
-	        osw.write(assignment);
+	        osw.write(assignment);//JSON body here
 	        osw.flush();
 	        osw.close();
 	        System.err.println(connection.getResponseCode());

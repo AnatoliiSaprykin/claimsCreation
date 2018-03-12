@@ -1,5 +1,7 @@
 package claimsCreationAuto;
 
+//it is internal part of JSON
+
 public class VehicleClaimAssignment {
 	public AutoInformation autoInformation;
 
@@ -82,17 +84,18 @@ public class VehicleClaimAssignment {
 		  vca.setPolicyNumber("53067700");
 		  vca.setInsuredName("Vova test");
 		  vca.setInsuredPhone("38-068-505-0219");
-		  vca.setInsuredSecondaryPhone("123456");
+		  vca.setInsuredSecondaryPhone("123456789");
 		  vca.setCustomerNotes("customerNotes");
 		  
 		  
 		  AutoInformation ai = new AutoInformation();
 		  ai.setColor("black");
-		  ai.setMake("BMW");
-		  ai.setMakeModel("S BMW");
-		  ai.setModel("SS");
-		  ai.setVin("123456789DDF12");
-		  ai.setYear("2001");
+		  ai.setMake("Kia");
+		  ai.setModel("Sportage");
+		  ai.setMakeModel("Kia Sportage");
+		  
+		  ai.setVin("4444567890123452222");
+		  ai.setYear("2017");
 		  
 		  vca.setAutoInformation(ai);
 		  return vca;

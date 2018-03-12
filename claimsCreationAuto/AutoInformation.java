@@ -1,7 +1,7 @@
 package claimsCreationAuto;
 
 public class AutoInformation {
-	
+	//external part of JSON
 	
 	public String Year;
 
